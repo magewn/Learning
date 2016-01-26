@@ -1,1 +1,13 @@
 Gitfacts
+Git is One or two order of Magnitude faster than SVN. One place where GIT is slower is in the initial clone operations,
+because GIT is downloading the entire history rather than only latest version.
+
+The “master” branch in Git is not a special branch. It is exactly like any other branch. The only reason nearly 
+every repository has one is that the git init command creates it by default and most people don’t bother to change it.
+
+$ git branch testing
+This creates a new pointer to the same commit you’re currently on.
+
+Two branches pointing into the same series of commits.
+
+How does Git know what branch you’re currently on? It keeps a special pointer called HEAD.

@@ -23,5 +23,5 @@ $ git add docs
 $ git add "*.txt"
       (Add all .txt files in the whole project)
       
-
-
+$git config --list
+      (list all the settings Git can find at that point)

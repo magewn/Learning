@@ -1,0 +1,27 @@
+Git Workflow
+
+-> Creates *.txt files
+-> Add files to the Staging Area
+-> Commit Changes 
+-> Modify *.txt files
+-> Add all files to staging area
+-> Add all files to statging barea 
+-> commit changes. 
+
+
+Different ways to Add 
+$ git add <list of files >
+      (Add the list of files)
+$ git add --all
+      (Add all files)
+$ git add *.txt
+      (Add txt files in curr directory)
+$ git add docs/*.txt
+      (Add files in the doc dir)
+$ git add docs 
+      (Add all files in doc dir) 
+$ git add "*.txt"
+      (Add all .txt files in the whole project)
+      
+
+

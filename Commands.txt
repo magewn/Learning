@@ -25,3 +25,7 @@ $ git add "*.txt"
       
 $git config --list
       (list all the settings Git can find at that point)
+$git log
+     (gives you log of previous commit)
+$git log -p -2
+    (shows the difference introduced in each commit. and -2 will limit the output to only the last two entries)
